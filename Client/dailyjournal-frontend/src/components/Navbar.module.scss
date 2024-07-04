@@ -1,0 +1,36 @@
+.navbar {
+    background-color: #4285f4; /* Google's blue color */
+    color: rgb(196, 102, 102);
+    padding: 15px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navItem {
+    margin: 0 15px;
+  }
+  
+  .navLink {
+    color: rgb(250, 135, 135);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navLink:hover {
+    background-color: #3367d6;
+    border-radius: 4px;
+  }
+  

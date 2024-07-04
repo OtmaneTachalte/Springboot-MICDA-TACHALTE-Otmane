@@ -1,0 +1,43 @@
+.registerForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input:focus {
+    border-color: #4285f4;
+  }
+  
+  .button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #4285f4;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #3367d6;
+  }
+  
